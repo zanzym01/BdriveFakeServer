@@ -1,15 +1,16 @@
-# CRACK NETDRIVE3 
-# NO MAINTENANCE
-***YOU SHOULD USE [RCLONE](https://rclone.org/) INSTEAD OF NETDRIVE***
+# BDRIVE FAKE SERVER
 
-Auto crack netdrive3 or create fake server for netdrive3 [netdrive.net](http://www.netdrive.net/)
-
-
+Patch and launch fake server for netdrive3 and/or cloudsync [netdrive.net](http://www.netdrive.net/) [cloudsync.bdrive.com](https://cloudsync.bdrive.com/)
 
 ***Note: Please buy app if you can.***
 # User manual:
-***Run AutoCrackNetDrive3 before run app.***
-## 1. DOWNLOAD: [autocracknetdrive3](https://github.com/NguyenKhong/CrackNetDrive3/raw/master/dist/AutoCrackNetDrive3.exe)
-## 2. Video demo: [link](https://raw.githubusercontent.com/NguyenKhong/CrackNetDrive3/master/video/crackvideo.mp4) or [link](http://dai.ly/x6mujmd)
+- Install Netdrive and/or CloudSync
+- Download the content of dist folder
+- Patch exe files by running in a cmd console:
+  - **For NetDrive:** ```BdriveFakeServer.exe -n <netDrive install folder path>```
+  - **For CloudSync:** ```BdriveFakeServer.exe -c <cloudSync install folder path>```
+- Install fake server as a service by running **installService.bat** (remove the service by running **removeService.bat**)
+- You can also launch the fake server manually by running **BdriveFakeServer.exe** before executing NetDrive or CloudSync.
+- To have more details, run ```BdriveFakeServer.exe -h``` in a cmd window
 
 ***Note: Application requires Admin privileges***
